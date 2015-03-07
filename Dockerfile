@@ -5,7 +5,7 @@
 
 # Pull base image
 FROM debian:wheezy
-MAINTAINER djlebersilvestre (djlebersilvestre@github.com)
+MAINTAINER Daniel Silvestre (djlebersilvestre@github.com)
 
 # Install basic applications
 RUN apt-get update && apt-get install -y \
